@@ -1,0 +1,13 @@
+tt_content.image.20.1.imageLinkWrap {
+	JSwindow = 0
+	directImageLink = 1
+	linkParams.ATagParams {
+		dataWrap = data-lightbox="lightbox{field:uid}"
+	}
+	width = 800m
+	height = 600
+}
+
+page = PAGE
+page.includeCSS.bwrkLightbox_css = EXT:bwrk_lightbox/Resources/Public/Scripts/lightbox.css
+page.includeJSFooter.bwrkLightbox_js = EXT:bwrk_lightbox/Resources/Public/Scripts/lightbox.min.js
