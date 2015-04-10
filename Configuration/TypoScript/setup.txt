@@ -11,3 +11,4 @@ tt_content.image.20.1.imageLinkWrap {
 page = PAGE
 page.includeCSS.bwrkLightbox_css = EXT:bwrk_lightbox/Resources/Public/Scripts/lightbox.css
 page.includeJSFooter.bwrkLightbox_js = EXT:bwrk_lightbox/Resources/Public/Scripts/lightbox.min.js
+page.includeJSFooter.bwrkLightbox_js_main = EXT:bwrk_lightbox/Resources/Public/Scripts/lightbox.main.js
