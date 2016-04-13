@@ -1,0 +1,10 @@
+{
+  "name": "bergwerk/bwrk-lightbox",
+  "type": "typo3-cms-extension",
+  "description": "Lightbox for TYPO3",
+  "homepage": "https://www.bergwerk.ag/",
+  "license": ["GPL-2.0+"],
+  "keywords": ["TYPO3 CMS", "lightbox"],
+  "version": "1.1.1",
+  "minimum-stability":"stable"
+}
