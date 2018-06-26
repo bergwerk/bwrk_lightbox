@@ -1,10 +1,30 @@
 {
   "name": "bergwerk/bwrk-lightbox",
-  "type": "typo3-cms-extension",
-  "description": "Lightbox for TYPO3",
-  "homepage": "https://www.bergwerk.ag/",
-  "license": ["GPL-2.0+"],
+  "description": "This extension adds the Lightbox 2 from Lokesh Dhakar to your TYPO3",
   "keywords": ["TYPO3 CMS", "lightbox"],
-  "version": "1.1.1",
-  "minimum-stability":"stable"
+  "version": "1.1.2",
+  "minimum-stability":"stable",
+  "type": "typo3-cms-extension",
+  "homepage": "https://www.bergwerk.ag",
+  "authors": [
+      {
+          "name": "BERGWERK",
+          "role": "Developer",
+          "homepage": "https://www.bergwerk.ag"
+      }
+  ],
+  "license": ["GPL-2.0-or-later"],
+  "replace": {
+    "bwrk_lightbox": "self.version",
+    "typo3-ter/bwrk_lightbox": "self.version"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.0"
+    },
+    "typo3/cms": {
+      "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "web-dir": ".Build/Web"
+    }
+  }
 }
